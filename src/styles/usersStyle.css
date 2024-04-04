@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.infor_user {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0008;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    overflow: auto;
+}
+.infor_user form {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+.infor_user .infor_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    transform: translateY(-15px);
+}
+.infor_title span {
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+    transform: translateY(-7px);
+  }
+.infor_user .heading {
+    font-weight: bold;
+}
+.follower_sub {
+    overflow-y: auto;
+}

@@ -1,0 +1,7 @@
+.border_box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.post_infor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0008;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    overflow: auto;
+}
+
+.post_infor .post_infor_container {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.infor_title_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-15px);
+}
+
+.infor_title_post span {
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+    transform: translateY(-7px);
+}
