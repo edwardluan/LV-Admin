@@ -34,7 +34,7 @@ const LoginPage = () => {
   return (
     <div className="login_page">
       <form onSubmit={handleSubmit}>
-        <h3 className="text-uppercase text-center pb-4">Nông Nghiệp Việt Nam</h3>
+        <h3 className="text-uppercase text-center pb-4">Admin Fixnow</h3>
         <div className="mb-3">
           <label htmlFor="phoneNumberInput" className="form-label">
             Nhập số điện thoại
